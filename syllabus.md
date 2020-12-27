@@ -48,7 +48,7 @@ hours]({{ site.baseurl }}/office-hours/).
 
 # Assessment 
 
-We will not have attendance or a final exam component. Instead, our
+We will not have [attendance](Attendance) or a final exam component. Instead, our
 course will have a single, solitary [project](Projects) component. I
 intend this project to be a lay-up. I want to set the bar for "Pass"
 so low that a student can trip over it. I want plenty of opportunities
@@ -68,6 +68,10 @@ I highly encourage you to attend every session. I will try match your
 enthusiasm and interest, to show you things you find exciting, and to
 give you as much challenge as you want without ever becoming
 overwhelmed or nervous.
+
+## Attendance 
+
+We will not be taking attendance except as requested by the registrar. 
 
 # Recordings
 
