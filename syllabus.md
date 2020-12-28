@@ -123,7 +123,7 @@ the [Khoury
 College](https://www.khoury.northeastern.edu/information-for-overview/current-undergrad/undergraduate-advising-academic-support/academic-policies/). There
 are so many existing implementations though, and the features are so
 minimal that simply showing how to use your implementation is
-indistinguishable to me from having written it from scratch.
+almost indistinguishable to me from having written it from scratch.
 
 ## Teamwork and Collaboration
 
@@ -140,9 +140,9 @@ able to demonstrate this mastery when requested.
 # Required Texts 
 
 There are no required texts for this course. I will post to the
-Resources page select chapters from The Reasoned Schemer, and a number
+Schedule page select chapters from The Reasoned Schemer, and a number
 of links to workshops and presentations, conference talks, or research
-papers.
+papers. You may also find more on the Readings page.
 
 # Academic Accommodations 
 

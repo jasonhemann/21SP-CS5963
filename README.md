@@ -19,7 +19,28 @@ new person, or enrichment resource, enter the corresponding
 sub-directory, and from there, create a new entry within `_posts`. The
 existing entries should serve as models.
 
+# Deployment 
+
+To fully for a new semester in a new shell, do the following:
+
+## Site
+
+   1. Add your and the TA's office hours to the office hours page
+   1. Add the lecture time date and location to the index page
+   1. Change the handins link if you intend to use it. 
 
 
+## Canvas 
+
+Using a copy of my basic canvas site shell, 
+
+  1. add a copy of the `Redirect` app targeting the home page
+  1. add a copy of the `Redirect` app targeting the syllabus
+  
+
+## Site again
+
+Change the Zoom link on the `index.md` page to the internal NEU canvas
+link.
 
 	

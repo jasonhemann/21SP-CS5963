@@ -25,8 +25,8 @@ students may attend in different ways. Please defer to the [dynamic
 scheduler](https://nuflex.northeastern.edu/dynamic-scheduling/) on how
 to attend on any given day.
 
- |         |       |       |     |               |                                                                                                                        |
- | Lecture | 18279 | Jason | T,R | 9:00-11:05 am | Shillman Hall 135 or [Zoom](https://northeastern.instructure.com/courses/18639/external_tools/5661?display=borderless) |
+ |         |       |       |     |               |                                                                    |
+ | Lecture | 38531 | Jason | T,R | 9:00-11:05 am | Shillman Hall 135 or [Zoom](https://applications.zoom.us/lti/rich) |
 
 
 
