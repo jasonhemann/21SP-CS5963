@@ -15,8 +15,9 @@ be a course over which you should stress out. I want to pique your
 interests, to give you the opportunity to dig in as far as you wish,
 and (I hope) to spark in you an interest to continue to do more.
 
-This will not be a course that frustrates you, or expects
-prerequisites
+This will not be a course that frustrates you or expects prerequisites
+in order for you to enjoy. I plan to start with DrRacket 101 and go
+from there. 
 
 # Purpose
 

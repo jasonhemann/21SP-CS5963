@@ -10,6 +10,69 @@ As a course and a student body, we are more remote than usual, and
 preferable. To help bridge the chasm, I will leverage some of the
 technology platforms Northeastern makes available to us.
 
+## Racket
+
+[Download](https://download.racket-lang.org/) and install Racket and
+the DrRacket integrated development environment. To begin with, I will
+use DrRacket in front of the classroom to demonstrate Racket and
+miniKanren programming, and I want you all to follow along and to
+practice during designated practice periods.
+
+### Rackunit
+
+We will also use the
+[Rackunit](https://docs.racket-lang.org/rackunit/) unit testing
+framework. This is another Racket package. We will use this as a
+substitute for the `check-expect` you might have come to appreciate if
+you have already taken Fundamentals I at NEU. We make this
+substitution because `check-expect` doesn't exist in the full `racket`
+language.
+
+## miniKanren 
+
+I will base our discussion, usage, and implementation around the
+miniKanren language. You can install this in DrRacket via the
+`faster-minikanren` package in the package manager. You can also
+(likely) find this implemented for the language of your choice at
+[http://minikanren.org]. We will at first use the Racket
+implementation 
+
+## Piazza 
+
+[Piazza.com](https://piazza.com/class/kj0bj02p4pv62i) hosts our main
+Q&A forum. We are everyone learning; no one knows all the answers, and
+remember that everyone wears their best and most knowledgeable
+face. For questions related to the course material, assignments,
+policies, or what have you, please utilize Piazza. I generally prefer
+anonymous Piazza posts over email---this way others get the benefit of
+your thoughtful question and answers and corrections scale to the size
+of our class. Please do anonymize them if you wish; we can see even if
+you cannot. Frequently someone will have the same concern or be
+feeling the same way.
+
+If it doesn't "give away the punchline" of some homework question or
+assignment, *necessitate* PII in the question or the answer, and isn't
+contrary to FERPA or your rights under the Northeastern University
+Handbook, please do consider if this can be a Piazza message.
+
+## [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
+
+I will use the school's enterprise git server
+[http://ccs.github.neu.edu] to host this website and other course
+content. You should have access to that with your KCCS account. I will
+expect you to know how to access this, for your own benefits and for
+coursework. If you are not familiar, please consult the Khoury Systems
+group's [documentation and
+walk-through](https://northeastern.service-now.com/kb_view.do?sysparm_article=KB0012152).
+
+## Course Homepage
+
+I constructed our course homepage as a Jekyll site built with Github
+Pages. Student corrections and improvements are *incredibly* welcome!
+You can submit a [pull request
+(PR)](http://github.ccs.neu.edu/jhemann/21SP-CS5963) for a quick
+correction and improvement. Every page on this website has a direct
+
 ## [Duo 2FA](https://get2fa.northeastern.edu/)
 
 Most if not all students will already have enrolled themselves for the
@@ -20,54 +83,6 @@ tutorials for installing and using the Duo 2FA system:
    - [The express version](https://express.northeastern.edu/get2fa/how-to-enroll-in-2fa/)
    - [The ~servicenow~ guide, (with pictures)](https://northeastern.service-now.com/kb_view.do?sys_kb_id=436cd1dbdb808854c5575e38dc9619e3&sysparm_class_name=kb_knowledge)
 
-## Piazza 
-
-[Piazza.com](http://piazza.com/) hosts our main Q&A forum. We are everyone learning; no one
-knows all the answers, and remember that everyone wears their best and
-most knowledgeable face. For questions related to the course material,
-assignments, policies, or what have you, please utilize Piazza. I
-generally prefer anonymous Piazza posts over email---this way others
-get the benefit of your thoughtful question and answers and
-corrections scale to the size of our class. Please do anonymize them
-if you wish; we can see even if you cannot. Frequently someone will
-have the same concern or be feeling the same way.
-
- If it doesn't "give away the punchline" of some homework question or
- assignment, *necessitate* PII in the question or the answer, and isn't
- contrary to FERPA or your rights under the Northeastern University
- Handbook, please do consider if this can be a Piazza message.
-
-## [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
-
-I will be utilizing the school's Enterprise git at
-[http://ccs.github.neu.edu]. You should have access to that with your
-KCCS account. I will expect you to know how to access this, for your
-own benefits and for coursework. If you are not familiar, please
-consult the Khoury Systems group's [documentation and
-walk-through](https://northeastern.service-now.com/kb_view.do?sysparm_article=KB0012152).
-
-## [Hypothes.is](http://hypothes.is)
-
-[Register here](https://hypothes.is/signup) for Hypothes.is, the collaborative editing tool. I will
-expect student to collaboratively edit and annotate certain notes and
-documents. As you read complete the reading assignments, you will
-often find areas that are less clear than others, or sub-optimally
-ordered, or deficient in a variety of other ways.
-
-Chrome users can download and install the [extension](https://chrome.google.com/webstore/detail/bjfhmglciegochdpefhhlphglcehbmek), if you
-wish. Users of other browsers can [install the bookmarklet](https://web.hypothes.is/start/#chrome-missing:~:text=For%20any%20browser%2C%20drag%20this%20button,or%20right%2Dclick%2Fcontrol%2Dclick%20to%20bookmark%20the%20link.). I will link
-all our ~.pdf~ documents via hypothesis. FYI, if you are on an Android
-device, you can send any page to hypothesis via the [following app](https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb).
-
-[Our Hypothesis Group]()
-
-## Course Homepage
-
-I constructed our course homepage as a Jekyll site built with Github
-Pages. Student corrections and improvements are *incredibly* welcome!
-You can submit a [pull request
-(PR)](http://github.ccs.neu.edu/jhemann/21SP-CS5963) for a quick
-correction and improvement. Every page on this website has a direct
 links to its ~.md~ file in this repository.
 
 ## Canvas 
@@ -75,11 +90,19 @@ links to its ~.md~ file in this repository.
 It is my intention to use Canvas solely to collect and maintain our
 grades. 
       
-## Handin Server
+<!-- ## Handin Server -->
 
-We will use the [Handin server](http://handins.ccs.neu.edu/) (bottlenose) to submit. You
-might have experience with this platform from Fundies I; if you
-do not, please read the [Handin Server Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html). 
+<!-- We will use the [Handin server](http://handins.ccs.neu.edu/) (bottlenose) to submit. You -->
+<!-- might have experience with this platform from Fundies I; if you -->
+<!-- do not, please read the [Handin Server Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html).  -->
+
+## NEU VPN 
+
+Go to [http://vpn.northeastern.edu](http://vpn.northeastern.edu), and follow the instructions to
+install the GlobalProctect VPN client on your machine. You will need
+this to use the VDI linux machines. If you have difficulty please
+consult the [relevant ITS KB articles](http://northeastern.service-now.com/tech?id=kb_category&kb_category=07d42f714f02cf0099c2fd511310c7b2), and if necessary [reach out to
+ITS support](http://its.northeastern.edu/support/#et-boc:~:text=Still%20Need%20Support%3F).
 
 ## Zoom 
 
@@ -103,19 +126,21 @@ software, via the [Zoom web client](https://support.zoom.us/hc/en-us/articles/21
 the functionality of the desktop or mobile apps; please see the
 comparison [here](https://support.zoom.us/hc/en-us/articles/360027397692#query:~:text=Note%3A,-We). 
 
-## NEU VPN 
+## [Hypothes.is](http://hypothes.is)
 
-Go to [http://vpn.northeastern.edu](http://vpn.northeastern.edu), and follow the instructions to
-install the GlobalProctect VPN client on your machine. You will need
-this to use the VDI linux machines. If you have difficulty please
-consult the [relevant ITS KB articles](http://northeastern.service-now.com/tech?id=kb_category&kb_category=07d42f714f02cf0099c2fd511310c7b2), and if necessary [reach out to
-ITS support](http://its.northeastern.edu/support/#et-boc:~:text=Still%20Need%20Support%3F).
+[Register here](https://hypothes.is/signup) for Hypothes.is, the
+collaborative editing tool. I suspect we might all have use for, and
+benefit from, collaboratively annotating papers, notes, and documents
+from the course. You will certainly find areas that are less clear
+than others, or sub-optimally ordered, or deficient in a variety of
+other ways.
 
-## Racket
+Chrome users can download and install the [extension](https://chrome.google.com/webstore/detail/bjfhmglciegochdpefhhlphglcehbmek), if you
+wish. Users of other browsers can [install the bookmarklet](https://web.hypothes.is/start/#chrome-missing:~:text=For%20any%20browser%2C%20drag%20this%20button,or%20right%2Dclick%2Fcontrol%2Dclick%20to%20bookmark%20the%20link.). I will link
+all our ~.pdf~ documents via hypothesis. FYI, if you are on an Android
+device, you can send any page to hypothesis via the [following app](https://play.google.com/store/apps/details?id=com.navasgroup.annoteweb).
 
-## miniKanren
-
-## Rackunit
+I have not yet created an [hypothesis group](javascript:void(0)) for us. 
 
 
 <!-- ## Applause!  -->
