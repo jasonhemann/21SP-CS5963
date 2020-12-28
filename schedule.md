@@ -6,7 +6,7 @@ classes: wide
 
 
  | Date       | Day   | Lecture Topic                                      | Notes Covered or Additional Notes                                                                                                                                                  |
- | 12/29/20   | Tues  | All the Racket you need to know                    | [How to Design Programs, Pt II](https://htdp.org/2020-8-1/Book/part_two.html)                                                                                                      |
+ | 12/29/20   | Tues  | All the Racket you need to know                    | [How to Design Programs, Pt II](https://htdp.org/2020-8-1/Book/part_two.html) Skim Ch. 1 as you need.                                                                              |
  | Enrichment |       | Barliman: when miniKanren does it for you          | [Trying to solve the halting problem, blindfolded, backwards](https://www.youtube.com/watch?v=er_lLvkklsk)                                                                         |
  | 12/31/20   | Thurs | Additional Racket Practice, Q & A                  |                                                                                                                                                                                    |
  | Enrichment |       | mediKanren: saving lives with logic                | [The Algorithm for Precision Medicine](https://www.youtube.com/watch?v=Rt3XyeFHvt4) [How to mediKanren](https://www.youtube.com/watch?v=WUuNjUZphXo)                               |
