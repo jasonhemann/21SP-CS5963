@@ -63,15 +63,91 @@ We will use these at the appropriate time.
 
 ## We will go over them together and then take a break with each other. 
 
-`y-after-x` 
+#### `y-after-x` 
+
+```
+;; y-after-x takes a list and returns a list
+;; Add a y after every x in a list
+
+;; (y-after-x '())
+;; '()
+;; (y-after-x '(x))
+;; '(x y)
+;; (y-after-x '(x x))
+;; '(x y x y)
+;; (y-after-x '(a b y c y))
+;; '(a b y c y)
+
+#|
+(y-after-x '(y b x)) => '(y b x y)
+(y-after-x   '(b x)) =>   '(b x y)
+|#
+
+;; L = () OR cons x L OR cons non-x L
+
+(define (y-after-x ls)
+  (cond ;; "conditional" i.e. "if-then-else"
+    ((empty? ls) '())
+    ((equal? (car ls) 'x)
+     (cons 'x (cons 'y (y-after-x (cdr ls)))))
+    ((not (equal? (car ls) 'x))
+     (cons (car ls)
+           (y-after-x (cdr ls))))))
+```
+
+#### `zip` 
+
+(EDIT: We did not get to. Maybe try it on your own and then look at
+our solution)
+
+````
+;; zip : takes a List and List and returns a List
+;; Returns a list of pairs of the constituent elements of the first and second list. 
+;; If the lists are of different lengths, drop the remainder of the longer list.
+;; > (zip '(a b c) '(e f g))
+;; '((a . e) (b . f) (c . g))
+;; > (zip '(a) '(e f g))
+;; '((a . e))
+;; > (zip '(a bx c) '(e f))
+;; '((a . e) (bx . f))
+;; > (zip '(a b) '())
+;; '()
+
+(define (zip ls1 ls2)
+  (cond 
+    ((or (empty? ls1) (empty ls2)) '())
+	(else (cons (cons (car ls1) (car ls2)) (zip (cdr ls1) (cdr ls2))))))
+
+````
+
+
+
+
+## You'll do several examples.
+
+
+#### `cons-every`
+
+```
+;; cons-every symbol and a list
+;; conses that symbol onto every element of the list
+
+;; > (cons-every 'x '(a b c d))
+;; '((x . a) (x . b) (x . c) (x . d))
+;; > (cons-every 'y '())
+;; '()
+;; > (cons-every 'a '(d e f))
+;; '((a . d) (a . e) (a . f))
+
+(define (cons-every x ls)
+  (cond
+    ((empty? ls) '())
+    (else (cons (cons x (car ls)) (cons-every x (cdr ls))))))
+```
 
 `zip` 
 
 `map`
-
-`cons-every`
-
-## You'll do several examples.
 
 ### `append`
 
