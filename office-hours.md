@@ -3,9 +3,8 @@ title: Office Hours
 layout: single
 ---
 
-For obvious reasons, this term we will hold office hours remotely. Our
-TA staff will use the [Khoury Office Hours tool](javascript:void(0)),
-helping students on a first-come, first-serve basis.
+For obvious reasons, this term we will hold office hours remotely. See
+below to schedule meetings with or get help from the TA staff.
 
 # Office Hours Times and Formats
 
