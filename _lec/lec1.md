@@ -211,14 +211,31 @@ it produced yet *another* function as the value. Whoooa! ᕕ( ᐛ )ᕗ
 15
 ```
 
-### Stretch example/problem. 
+### Stretch example/problems
 
-#### Cartesian product
+#### `powerset` 
 
-Read over this summary of Barron and Strachey's Cartesian product
-function (note: they wrote this code in ~1966!)
+```
+;; powerset list to list 
+;; given a set represented a list (a list with no duplicates), return
+a list representing the powerset of the input: a list of list
+representations of all subsets.
 
-http://ojs.statsbiblioteket.dk/index.php/brics/article/download/21934/19359
+;; > (powerset '(3 2 1))
+;; '((3 2 1) (3 2) (3 1) (3) (2 1) (2) (1) ())
+;; > (powerset '())
+;; '(())
 
+;; Not order does not and should not matter here, so as long as you
+get the correct elements, we'll be fine with any old order!
+```
 
+#### (generalized) Cartesian product 
 
+Read over this summary of [Barron and Strachey's Cartesian product
+function](http://ojs.statsbiblioteket.dk/index.php/brics/article/download/21934/19359)
+(note: they wrote this code in ~1966!)
+
+#### You can also read about the amazing zoo of things you can do with the `foldr` function:
+
+[`foldr` the magnificent](http://www.cs.nott.ac.uk/~pszgmh/fold.pdf)
