@@ -97,10 +97,10 @@ We will use these at the appropriate time.
 
 #### `zip` 
 
-(EDIT: We did not get to. Maybe try it on your own and then look at
-our solution)
+(EDIT: We did not get to the next two. Maybe try them on your own and
+	then look at our solutions)
 
-````
+```
 ;; zip : takes a List and List and returns a List
 ;; Returns a list of pairs of the constituent elements of the first and second list. 
 ;; If the lists are of different lengths, drop the remainder of the longer list.
@@ -115,13 +115,44 @@ our solution)
 
 (define (zip ls1 ls2)
   (cond 
-    ((or (empty? ls1) (empty ls2)) '())
+    ((empty? ls1) '())
+	((empty? ls2) '())
 	(else (cons (cons (car ls1) (car ls2)) (zip (cdr ls1) (cdr ls2))))))
+```
 
-````
+For this one, I really thought about it as though I was walking over
+one piece of data: the two lists (at once) this is why I made my
+sub-problem changing both lists at once. What's decreasing is their
+total length. So I need two base cases, because both of the lists are
+shrinking.
 
+#### `map` 
 
+This is another one to which we did not get. It is also more than we
+will need to write miniKanren programs; it is the sort of thing we
+might use when we write a miniKanren. `map` is a function that takes a
+*function* as an argument. This is an example of what makes functional
+programming really cool. If you want a more run-of-the-mill example,
+consider this: in your calculus class ~integral~ was a mathematical
+function that took another mathematical function as an argument, and
+it produced yet *another* function as the value. Whoooa! ᕕ( ᐛ )ᕗ
 
+```
+;; map takes a one-argument function and a list and produces a list
+;; map runs the function f on every element of the list in turn, and produces a list of the results.
+
+;; > (map add1 '(2 3 4 5))
+;; '(3 4 5 6)
+;; > (map symbol? '(cat dog #f 2 3 4))
+;; '(#t #t #f #f #f #f)
+;; > (map y-after-x '(() (x) (x x) (a b y c y)))
+;; '(() (x y) (x y x y) (a b y c y))
+
+(define (map f ls)
+  (cond
+    ((empty? ls) '())
+	(else (cons (f (car ls)) (map f (cdr ls))))))
+```
 
 ## You'll do several examples.
 
@@ -129,7 +160,7 @@ our solution)
 #### `cons-every`
 
 ```
-;; cons-every symbol and a list
+;; cons-every symbol and a list and produces a list
 ;; conses that symbol onto every element of the list
 
 ;; > (cons-every 'x '(a b c d))
@@ -144,10 +175,6 @@ our solution)
     ((empty? ls) '())
     (else (cons (cons x (car ls)) (cons-every x (cdr ls))))))
 ```
-
-`zip` 
-
-`map`
 
 ### `append`
 
@@ -193,15 +220,5 @@ function (note: they wrote this code in ~1966!)
 
 http://ojs.statsbiblioteket.dk/index.php/brics/article/download/21934/19359
 
-
-### After break
-
-
-#### Quasiquotes and commas and patterns and pattern matching
-
-
-#### `match`
-
-#### The same programs, but differently. 
 
 
