@@ -1,6 +1,5 @@
 ---
-title: About the course
-layout: single
+title: Class intro; Racket 101
 liquid: enabled
 date: 2021-12-29
 ---

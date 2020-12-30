@@ -199,9 +199,6 @@ whitelist:
   - jekyll-include-cache
           
 collections:
-  enrichment:
-    output: true
-    permalink: /:collection/:path/
   FAQ:
     output: true
     permalink: /:collection/:path/
