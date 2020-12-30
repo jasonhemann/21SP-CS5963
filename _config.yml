@@ -202,9 +202,6 @@ collections:
   lec:
     output: true
     permalink: /:collection/:path/
-  FAQ:
-    output: true
-    permalink: /:collection/:path/
   people:
     output: true
     permalink: /:collection/:path/
@@ -230,21 +227,9 @@ defaults:
       comments: false
       share: false
       related: false
-  # _FAQ
-  - scope:
-      path: ""
-      type: FAQ
-    values:
-      layout: single
   # _lec
   - scope:
       path: ""
       type: lec
-    values:
-      layout: single
-  # _FAQ
-  - scope:
-      path: ""
-      type: FAQ
     values:
       layout: single

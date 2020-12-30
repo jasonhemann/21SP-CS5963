@@ -27,8 +27,6 @@ sidebar-site-map:
     url: /syllabus/
   - title: "Tech"
     url: /tech/
-  - title: "FAQ"
-    url: /FAQ/
   - title: "Site Source"
     url: https://github.ccs.neu.edu/jhemann/21SP-CS5963
   - title: "Enrichment"
