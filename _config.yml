@@ -199,10 +199,10 @@ whitelist:
   - jekyll-include-cache
           
 collections:
-  FAQ:
+  lec:
     output: true
     permalink: /:collection/:path/
-  lec:
+  FAQ:
     output: true
     permalink: /:collection/:path/
   people:

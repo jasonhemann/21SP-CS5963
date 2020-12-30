@@ -1,7 +1,5 @@
 ---
 title: Class intro; Racket 101
-layout: single
-liquid: enabled
 date: 2021-12-29
 ---
 

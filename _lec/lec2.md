@@ -1,7 +1,5 @@
 ---
 title: More Racketry, quasiquotes, commas, and patterns.
-layout: single
-liquid: enabled
 date: 2021-12-31
 ---
 
