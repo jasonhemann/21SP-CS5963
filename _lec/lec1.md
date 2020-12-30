@@ -184,6 +184,12 @@ it produced yet *another* function as the value. Whoooa! ᕕ( ᐛ )ᕗ
 '(d)
 > (append '(a b c) '(d . e))
 '(a b c d . e)
+```
+
+The following would be an error; you needn't concern yourself with
+this case.
+
+```
 > (append '(a b c . d) '(e))
 #error
 ```
@@ -197,6 +203,12 @@ it produced yet *another* function as the value. Whoooa! ᕕ( ᐛ )ᕗ
 '()
 > (reverse '(a)
 '(a)
+```
+
+The following would be an error; you needn't concern yourself with
+this case.
+
+```
 > (reverse '(a b c . d))
 #error
 ```
