@@ -244,7 +244,8 @@ this case.
 
 Read over this summary of [Barron and Strachey's Cartesian product
 function](http://ojs.statsbiblioteket.dk/index.php/brics/article/download/21934/19359)
-(note: they wrote this code in ~1966!)
+(you might need to right-click "Save as") Note that they wrote this
+code in ~1966!
 
 #### You can also read about the amazing zoo of things you can do with the `foldr` function:
 
