@@ -20,9 +20,8 @@ sidebar-site-map:
   - title: "Readings"
     url: /readings/
   - title: "Piazza"
-    url: https://piazza.com/class/kepqlb8j4us4ga
+    url: https://piazza.com/class/kj0bj02p4pv62i
   - title: "Handins/Bottlenose"
-    url: https://handins.ccs.neu.edu/courses/108
     url: javascript:void(0)
   - title: "Syllabus"
     url: /syllabus/
@@ -31,7 +30,7 @@ sidebar-site-map:
   - title: "FAQ"
     url: /FAQ/
   - title: "Site Source"
-    url: https://github.ccs.neu.edu/jhemann/20FA-2800
+    url: https://github.ccs.neu.edu/jhemann/21SP-CS5963
   - title: "Enrichment"
     url: /enrichment/
   - title: "How's My Driving?"

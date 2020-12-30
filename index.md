@@ -1,6 +1,6 @@
 ---
 title: Welcome
-layout: single
+layout : single
 author_profile: true
 social: true
 sidebar:

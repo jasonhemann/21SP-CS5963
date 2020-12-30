@@ -116,7 +116,7 @@ option in your back pocket.
 # Academic Integrity Policy
 
 Students of course play an integral part in ensuring they receive the
-full benefit of their coursework. The students of 2800 are certainly
+full benefit of their coursework. The students of 5963 are certainly
 beholden to the academic integrity policies of [Northeastern
 University](http://www.northeastern.edu/osccr/academic-integrity-policy/),
 the [Khoury

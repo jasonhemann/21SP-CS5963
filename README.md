@@ -28,7 +28,9 @@ To fully for a new semester in a new shell, do the following:
    1. Add your and the TA's office hours to the office hours page
    1. Add the lecture time date and location to the index page
    1. Change the handins link if you intend to use it. 
-
+   1. In _data/navigation.yml, update the URL for the repo
+   1. Change everywhere the course title is hardcoded. Global search and replace
+   1. Change everywhere the year is hard-coded. Global search-and-replace
 
 ## Canvas 
 

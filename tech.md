@@ -143,11 +143,3 @@ device, you can send any page to hypothesis via the [following app](https://play
 I have not yet created an [hypothesis group](javascript:void(0)) for us. 
 
 
-<!-- ## Applause!  -->
-
-<!-- One of the things I miss most about real, in-person classrooms is -->
-<!-- being able to applaud someone for a job well done, and for getting up -->
-<!-- and giving it a shot. Here's our [best -->
-<!-- alternative](https://applause.haggett.org/FA20-2800). If each of us -->
-<!-- goes here and enters his or her name then, when one of us presses the -->
-<!-- applause button, we can all see and hear it.  -->
