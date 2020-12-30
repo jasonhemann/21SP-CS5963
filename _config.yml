@@ -240,8 +240,8 @@ defaults:
   - scope:
       path: ""
       type: lec
-    values:
-      layout: single
+    # values:
+    #   layout: single
   # _FAQ
   - scope:
       path: ""
