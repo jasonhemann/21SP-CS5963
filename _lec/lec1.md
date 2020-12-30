@@ -229,8 +229,8 @@ this case.
 ```
 ;; powerset list to list 
 ;; given a set represented a list (a list with no duplicates), return
-a list representing the powerset of the input: a list of list
-representations of all subsets.
+;; a list representing the powerset of the input: a list of list
+;; representations of all subsets.
 
 ;; > (powerset '(3 2 1))
 ;; '((3 2 1) (3 2) (3 1) (3) (2 1) (2) (1) ())
@@ -238,7 +238,7 @@ representations of all subsets.
 ;; '(())
 
 ;; Not order does not and should not matter here, so as long as you
-get the correct elements, we'll be fine with any old order!
+;; get the correct elements, we'll be fine with any old order!
 ```
 
 #### (generalized) Cartesian product 
