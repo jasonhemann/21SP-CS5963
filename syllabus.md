@@ -83,7 +83,9 @@ notes and in-class work. You can also take advantage of our TA staff.
 # Projects 
 
 The sole assessment this minimester is a single project. You will
-complete this individually or in pairs.
+complete this individually or in pairs. You will submit this, via
+[Handins]({{ site.baseurl }}/tech/), by end of day (Boston-time) on
+January 15. 
 
 ## Default Project 
 

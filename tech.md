@@ -85,16 +85,16 @@ tutorials for installing and using the Duo 2FA system:
 
 links to its ~.md~ file in this repository.
 
-## Canvas 
+## Handin Server
 
-It is my intention to use Canvas solely to collect and maintain our
-grades. 
-      
-<!-- ## Handin Server -->
-
-<!-- We will use the [Handin server](http://handins.ccs.neu.edu/) (bottlenose) to submit. You -->
-<!-- might have experience with this platform from Fundies I; if you -->
-<!-- do not, please read the [Handin Server Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html).  -->
+We will use the [Handin server](http://handins.ccs.neu.edu/)
+(bottlenose) to submit. You might have experience with this platform
+from Fundies I; if you do not, please read the [Handin Server
+Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html). You
+will need your Khoury systems account username to login and to
+register. Go
+[here](https://my.khoury.northeastern.edu/forgot/username) to find it
+if you have forgotten.
 
 ## NEU VPN 
 
