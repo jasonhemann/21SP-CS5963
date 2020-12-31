@@ -56,9 +56,11 @@ We give the general skeleton, and fill in the particular pieces.
 
 ## `match` -- like `cond`, but w/patterns.
 
+```
 (match '(a b c)
   (?????    'yes)
   (else     'no))
+```
 
 ### Why? Because the structure is sometimes very nice. 
 
