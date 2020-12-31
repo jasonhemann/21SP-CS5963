@@ -5,13 +5,13 @@ date: 2021-12-31
 
 # Warm-Up
 
-`length`
+`stutter`
 
 ```
-(define (length ls)
+(define (stutter ls)
   (cond
-    ((empty? ls) 0)
-	(else (add1 (length (cdr ls))))))
+    ((empty? ls) '())
+	(else (cons (car ls) (cons (car ls) (stutter (cdr ls)))))))
 ```
 
 # Quotes, vs. Quasi-quotes
@@ -85,28 +85,6 @@ We give the general skeleton, and fill in the particular pieces.
     ('() '())
 	(`(,a . ,d) `(,a ,a . ,(stutter d)))))
 ```	
-
-### `length`
-
-```
-(define (length ls)
-  (match ls
-    (`() 0)
-	(`(,_ . ,d) (add1 (length d)))
-```	
-
-### `drop-first`
-
-```
-(define (drop-first x ls)
-  (match ls
-    ('() '())
-	(`(,a . ,d)
-	  (cond
-	    ((equal? a x) d)
-		(else `(,a . ,(drop-first d)))))))
-```		
-	  
 	  
 ### `member?`
 
@@ -120,3 +98,83 @@ We give the general skeleton, and fill in the particular pieces.
 		(else (member? x d))))))
 ```
 
+## You try
+
+### `length`
+
+### `drop-first`
+
+## Hungry for more? 
+
+With more firmly structured data we get more interesting
+programs. Here comes a new type of data, `L`. We're going to get more
+sophisticated here. Whenever I use `x` or `y` in the description of
+`L`, that's supposed to be a symbol. When I use the word `lambda` I
+mean it to be precisely that symbol---I'm using it as a
+constant. Whenever I use `L`, `L1`, `L2`, these are recursive
+positions. 
+
+`L consists of x OR (lambda (x) L) OR (L1 L2)`
+
+So these are in L:
+
+  - `(a b)`
+  - `z`
+  - `(lambda (a) (lambda (z) a))`
+  - `((f h) (g h))`
+  - `(t (lambda (h) v))`
+  - `(lambda (lambda) lambda)`
+
+By contrast, these are not in L:
+
+  - `(lambda (z))`
+  - `(a b c)`
+  - `(t)`
+  - `(5 z)`
+  - `(lambda () (a b))`
+  
+  
+We want to write a function `lambda->gamma` that will take any L
+expression, and replace all uses of `lambda` in that constant position
+with `gamma`.
+
+```
+> (lambda->gamma '(lambda (a) (lambda (b) a)))
+'(gamma (a) (gamma (b) a))
+> (lambda->gamma '(b t))
+'(b t)
+> (lambda->gamma '((lambda (a) (a a)) (lambda (b) (b b))))
+'((gamma (a) (a a)) (gamma (b) (b b)))
+> (lambda->gamma '(lambda (lambda) lambda))
+'(gamma (lambda) lambda)
+> (lambda->gamma '(lambda lambda))
+'(lambda  lambda)
+```
+
+
+
+### Just Dessert. 
+
+This is not for the feint of heart or the uninitiated. If this stuff
+is generally new to you, stop here. This is one of those grimoires
+that are locked up in the Hogwarts library. But. Here we go.
+
+You can nest quasiquoted expressions, of course. And you can mix them
+in with quotes in between.
+
+```
+> (quasiquote (unquote . unquote))
+'(unquote . unquote)
+
+> (quasiquote             (unquote (quote (unquote (+ 2 3)))))
+',(+ 2 3)
+
+> (quasiquote      (quote (unquote (quote (unquote (+ 2 3))))))
+'',(+ 2 3)
+
+> (quasiquote (quasiquote (unquote (quote (unquote (+ 2 3))))))
+'`,'5
+```
+
+Explain the behavior of the first of these, and explain the behavior
+of the fourth in light of the second and the third.
