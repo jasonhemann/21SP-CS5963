@@ -55,11 +55,27 @@ assignment, *necessitate* PII in the question or the answer, and isn't
 contrary to FERPA or your rights under the Northeastern University
 Handbook, please do consider if this can be a Piazza message.
 
-## [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
+## Khoury Account 
+
+To access the following two resources, you will need your Khoury
+systems account username and password to login and to register. Go
+[here](https://my.khoury.northeastern.edu/forgot/username) to find it
+if you have forgotten. If it turns out you do not have one, apply
+[here](https://my.khoury.northeastern.edu/account/apply).
+
+### Handin Server
+
+We will use the [Handin server](http://handins.ccs.neu.edu/)
+(bottlenose) to submit. You might have experience with this platform
+from Fundies I; if you do not, please read the [Handin Server
+Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html). 
+
+
+### [KCCS/CCIS/CCS Github](http://ccs.github.neu.edu)
 
 I will use the school's enterprise git server
 [http://ccs.github.neu.edu] to host this website and other course
-content. You should have access to that with your KCCS account. I will
+content. You should have access to that with your Khoury account. I will
 expect you to know how to access this, for your own benefits and for
 coursework. If you are not familiar, please consult the Khoury Systems
 group's [documentation and
@@ -84,17 +100,6 @@ tutorials for installing and using the Duo 2FA system:
    - [The ~servicenow~ guide, (with pictures)](https://northeastern.service-now.com/kb_view.do?sys_kb_id=436cd1dbdb808854c5575e38dc9619e3&sysparm_class_name=kb_knowledge)
 
 links to its ~.md~ file in this repository.
-
-## Handin Server
-
-We will use the [Handin server](http://handins.ccs.neu.edu/)
-(bottlenose) to submit. You might have experience with this platform
-from Fundies I; if you do not, please read the [Handin Server
-Guide](http://ccs.neu.edu/home/blerner/handin-server/handin-server-guide.html). You
-will need your Khoury systems account username to login and to
-register. Go
-[here](https://my.khoury.northeastern.edu/forgot/username) to find it
-if you have forgotten.
 
 ## NEU VPN 
 
