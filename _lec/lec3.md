@@ -101,7 +101,7 @@ These can be only *sequenced* or *alternates*
 
 ## More detailed guides
 
-# Project)
+# Project
 (== to '
 I) don't want anyone getting scared or worried about this. I also don't
 want anyone feeling like "... *gulp*!!". So I want to get this out of
@@ -109,23 +109,23 @@ the way now.
 
 ## Implement a short language-as-a-library
 
-[https://github.com/jasonhemann/microKanren/blob/master/microKanren.scm] 
+<https://github.com/jasonhemann/microKanren/blob/master/microKanren.scm> 
 
 ## Implement *and understand* a short language-as-a-library
 
-[https://github.com/jasonhemann/microKanren/blob/master/microKanren.scm] 
+<https://github.com/jasonhemann/microKanren/blob/master/microKanren.scm> 
 
 We can simplify away a bunch of this, too. Have to think about it.
 
 ## Implement and understand the more sophisticated version 
 
-[https://github.com/jasonhemann/microKanren-DLS-16/blob/master/mk.rkt]
+<https://github.com/jasonhemann/microKanren-DLS-16/blob/master/mk.rkt>
 
 This has slightly more, fancier Racket than most of you are aware
 
 ## Implement a version in the language of your own choice 
 
-*Transferrence*! Plus it might feel more familiar to you on your home terf.
+*Transferrence*! Plus it might feel more familiar to you on your home turf.
 
 
 ## Additions! 
