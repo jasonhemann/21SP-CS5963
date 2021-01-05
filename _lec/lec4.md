@@ -13,6 +13,7 @@ date: 2021-01-07
 
 ## miniKanren numbers
 
+`numbers.rkt`
 
 
 
@@ -24,6 +25,9 @@ calls to `==` or to any other constraints.
 These can be only *sequenced* or *alternates*
 
 ## More detailed guides
+
+ - [Ryan's](https://gist.github.com/rymaju/ef19ff738039e8e677758adb7e05bc7c) design recipe
+ - [Jason's](https://cgi.soic.indiana.edu/~c311/lib/exe/fetch.php?media=mk-convert.pdf) old tutorial
 
 # Project
 I don't want anyone getting scared or worried about this. I also don't
