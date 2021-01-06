@@ -1,6 +1,6 @@
 ---
 title: Class intro; Racket 101
-date: 2021-12-29
+date: 2020-12-29
 ---
 
 # Headlines
