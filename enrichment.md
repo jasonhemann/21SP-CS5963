@@ -10,4 +10,4 @@ classes: wide
 - [Philosophy of Computer Science](https://cse.buffalo.edu/~rapaport/Papers/phics.pdf) (Draft text)
 - [Logicomix](https://en.wikipedia.org/wiki/Logicomix) (It's a comic about Russell and early 20th century mathematical logic. ᕕ( ᐛ )ᕗ) 
 - [An Introduction to Non-classical Logic](https://onesearch.library.northeastern.edu/permalink/f/365rt0/NEU_ALMA51261636590001401) (The conditional beyond the material)
-
+- [Logic-Oriented Programming](https://www.youtube.com/watch?v=z8Pz4bJV3Tk)
