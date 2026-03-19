@@ -22,13 +22,13 @@ sidebar-site-map:
   - title: "Piazza"
     url: https://piazza.com/class/kj0bj02p4pv62i
   - title: "Handins/Bottlenose"
-    url: https://handins.ccs.neu.edu/courses/125
+    url: #
   - title: "Syllabus"
     url: /syllabus/
   - title: "Tech"
     url: /tech/
   - title: "Site Source"
-    url: https://github.ccs.neu.edu/jhemann/21SP-CS5963
+    url: https://github.com/jasonhemann/21SP-CS5963
   - title: "Enrichment"
     url: /enrichment/
   - title: "How's My Driving?"

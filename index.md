@@ -20,9 +20,9 @@ and implementation of a relational programming language.
 
 ## Classes and Labs
 
-This being a [NUflex](https://nuflex.northeastern.edu/) class,
+This being a [NUflex](https://web.archive.org/web/20240808154712/https://nuflex.northeastern.edu/) class,
 students may attend in different ways. Please defer to the [dynamic
-scheduler](https://nuflex.northeastern.edu/dynamic-scheduling/) on how
+scheduler](http://web.archive.org/web/20210726060550/https://nuflex.northeastern.edu/dynamic-scheduling/) on how
 to attend on any given day.
 
  |         |       |       |     |               |                                                                    |

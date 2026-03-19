@@ -34,7 +34,7 @@ name                     : "Jason Hemann"
 description              : "Relational and Constraint Programming in miniKanren"
 github                   : [metadata]
 # e.g. http://example.com
-url                      : "https://jasonhemann.github.io"
+url                      : "https://hemann.pl"
 # the site subpath, e.g. /blog
 baseurl                  : "/21SP-CS5963"
 repository               : "jasonhemann/21SP-CS5963"

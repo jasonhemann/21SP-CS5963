@@ -120,9 +120,9 @@ option in your back pocket.
 Students of course play an integral part in ensuring they receive the
 full benefit of their coursework. The students of 5963 are certainly
 beholden to the academic integrity policies of [Northeastern
-University](http://www.northeastern.edu/osccr/academic-integrity-policy/),
+University](http://web.archive.org/web/20210518231334/http://www.northeastern.edu/osccr/academic-integrity-policy),
 the [Khoury
-College](https://www.khoury.northeastern.edu/information-for-overview/current-undergrad/undergraduate-advising-academic-support/academic-policies/). There
+College](https://web.archive.org/web/20240920031252/https://www.khoury.northeastern.edu/information-for-overview/current-undergrad/undergraduate-advising-academic-support/academic-policies/). There
 are so many existing implementations though, and the features are so
 minimal that simply showing how to use your implementation is
 almost indistinguishable to me from having written it from scratch.
@@ -149,7 +149,7 @@ papers. You may also find more on the Readings page.
 # Academic Accommodations 
 
 If you have accommodations from the [Disability Resource Center
-(DRC)](http://www.northeastern.edu/drc/) please submit your Professor
+(DRC)](https://web.archive.org/web/20210327072511/http://www.northeastern.edu/drc/) please submit your Professor
 Notification Letter to me by email, preferably within the first two
 weeks of the quarter, so I can do my part to help you achieve equal
 access in this course. I am eager to discuss ways we can ensure your
@@ -157,7 +157,7 @@ full participation.
 
 I encourage all students who may benefit from learning more about DRC
 services to [contact the
-DRC](http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information).
+DRC](https://web.archive.org/web/20210327072511/http://www.northeastern.edu/drc/#fp-blog-entry:~:text=Contact%20Information).
 
 # Technology and Platforms
 
@@ -177,7 +177,7 @@ site.baseurl }}/tech/) for more details.
 The university has put into place a robust plan to make the campus
 healthy and safe for all — but you must do your part. On August 22, all
 students received an
-[email](https://news.northeastern.edu/coronavirus/university-messages/university-response-to-unsafe-behavior/)
+[email](https://web.archive.org/web/20241110214801/https://news.northeastern.edu/coronavirus/university-messages/university-response-to-unsafe-behavior/)
 from Senior Vice Chancellor for Student Affairs Madeleine Estabrook on
 the expectations for behavior both on campus and off campus. **Please
 read it carefully today.**
@@ -204,15 +204,15 @@ To summarize:
   telehealth team who will provide you with next steps.
 
 * Do a Daily Wellness Check
-  ([wellness-check.northeastern.edu](https://wellness-check.northeastern.edu)),
+  ([wellness-check.northeastern.edu](https://web.archive.org/web/20210927132732/http://www.wellness-check.northeastern.edu/)),
   wash your hands well and regularly, and disinfect high-touch surfaces
   and spaces.
 
 * I will be wearing a [face
-  covering](https://news.northeastern.edu/coronavirus/reopening/frequently-asked-questions/#reopening)
+  covering](http://web.archive.org/web/20210815142735/https://news.northeastern.edu/coronavirus/reopening/frequently-asked-questions/)
   or mask as I teach and expect that you will do the same in class. If
   you come to class without a mask, I’ll ask you to go and [get one on
-  campus](https://news.northeastern.edu/coronavirus/reopening/policies-and-protocols/#face-covering-protocol).
+  campus](https://web.archive.org/web/20241103200633/https://news.northeastern.edu/coronavirus/reopening/policies-and-protocols/#face-covering-protocol).
   You can get a mask at the Visitor Center or at the Curry Student
   Center Help Desk. If you refuse to wear a mask in class, I won’t be
   able to continue the class. If you are not sitting six feet apart from
