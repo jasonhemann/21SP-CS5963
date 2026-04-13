@@ -4,6 +4,7 @@
     "https://scholar.google.com",
     "https://bitbucket.org/jhemann-shu",
     "https://my\\.khoury\\.northeastern\\.edu/(account/apply|forgot/username)(\\?.*)?$",
+    "https://applications\\.zoom\\.us/lti/rich(\\?.*)?$",
     "https://web\\.archive\\.org/web/.*"
   ],
   "statusCodes": {
